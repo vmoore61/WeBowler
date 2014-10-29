@@ -37,5 +37,29 @@ namespace WeBowler
             g.DrawLine(pen1, 0, 500, 260, 500);
             g.FillEllipse(myBrush, new Rectangle(110, 480, 40, 40));
         }
+
+        private void pictureBox1_MouseClick(object sender, MouseEventArgs e)
+        {
+            g = pictureBox1.CreateGraphics();
+            pictureBox1.Refresh();
+            g.DrawEllipse(pen1, 20, 20, 40, 40);
+            g.DrawEllipse(pen1, 80, 20, 40, 40);
+            g.DrawEllipse(pen1, 140, 20, 40, 40);
+            g.DrawEllipse(pen1, 200, 20, 40, 40);
+            g.DrawEllipse(pen1, 50, 80, 40, 40);
+            g.DrawEllipse(pen1, 110, 80, 40, 40);
+            g.DrawEllipse(pen1, 170, 80, 40, 40);
+            g.DrawEllipse(pen1, 80, 140, 40, 40);
+            g.DrawEllipse(pen1, 140, 140, 40, 40);
+            g.DrawEllipse(pen1, 110, 200, 40, 40);
+
+            g.DrawLine(pen1, 0, 500, 260, 500);
+            g.FillEllipse(myBrush, new Rectangle(e.X, 480, 40, 40));
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
