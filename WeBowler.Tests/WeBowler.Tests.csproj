@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>eb3e300b-b100-4b33-887c-0698315fb964</ProjectGuid>
+    <ProjectGuid>{5C0C1BA6-3C50-48A8-9029-3E99F5F2A804}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>WeBowler.Tests</RootNamespace>
