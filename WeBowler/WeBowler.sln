@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.30723.0
+VisualStudioVersion = 12.0.30501.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeBowler", "WeBowler.csproj", "{55CB1C17-0E0A-42A5-9AEB-5D3121F84FBD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeBowler.Tests", "..\WeBowler.Tests\WeBowler.Tests.csproj", "{5C0C1BA6-3C50-48A8-9029-3E99F5F2A804}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{55CB1C17-0E0A-42A5-9AEB-5D3121F84FBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{55CB1C17-0E0A-42A5-9AEB-5D3121F84FBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{55CB1C17-0E0A-42A5-9AEB-5D3121F84FBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C0C1BA6-3C50-48A8-9029-3E99F5F2A804}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C0C1BA6-3C50-48A8-9029-3E99F5F2A804}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C0C1BA6-3C50-48A8-9029-3E99F5F2A804}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C0C1BA6-3C50-48A8-9029-3E99F5F2A804}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
